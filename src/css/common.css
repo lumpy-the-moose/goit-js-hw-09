@@ -17,6 +17,13 @@ img {
   max-width: 100%;
 }
 
+.fieldset {
+  align-items: center;
+  max-width: 650px;
+  padding: 0;
+  border: none;
+}
+
 input {
   width: 200px;
   height: 50px;
@@ -48,7 +55,6 @@ button {
 .column {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .gap {
@@ -76,8 +82,4 @@ button {
   text-align: center;
   opacity: 0;
   transition: opacity 0.5s ease;
-}
-
-.visible {
-  opacity: 1;
 }
